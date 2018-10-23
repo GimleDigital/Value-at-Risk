@@ -8,7 +8,7 @@ package object utils {
    *  together in the console. Ensures a clean output, separated from Breeze and
    *  Spark error messages,
    *
-   *  @param exercise the exercise to which the results corresponds
+   *  @param exercise the exercise to which the results correspond
    */
   class Results(exercise: String) {
     // Results buffer
