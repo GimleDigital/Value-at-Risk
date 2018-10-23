@@ -12,6 +12,7 @@ Also, the Breeze library is used for algebra and basic statistics.
 The repository is structured in the same way as the book, which is available
 online at https://www.value-at-risk.net/
 
-Each exercise is a separate Scala application. Navegate to its directory (for
-example "chapter01"), start sbt and run the app. If the chapter contains more than
-one exercise, sbt will show a list of exercises to choose from. 
+Each proposed exercise solution is a separate Scala program. Navegate to its
+directory (for example "chapter01"), start sbt and run the app. If the chapter
+contains more than one exercise, sbt will show a list of exercises to choose
+from. 
