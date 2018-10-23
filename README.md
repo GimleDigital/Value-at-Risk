@@ -12,11 +12,9 @@ Also, the Breeze library is used for algebra and basic statistics.
 The repository is structured in the same way as the book, which is available
 online at https://www.value-at-risk.net/
 
-Chapter 01: Value-at-Risk
-
-Chapter 02: Mathematical Preliminaries
-
-Chapter 03: Probabilities
+  Chapter 01: Value-at-Risk
+  Chapter 02: Mathematical Preliminaries
+  Chapter 03: Probabilities
 
 Chapter 04: Statistics and Time Series
 
