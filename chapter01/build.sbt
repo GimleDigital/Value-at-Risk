@@ -1,4 +1,4 @@
-name := "valueatrisk"
+name := "Value-at-Risk: Chapter 01"
 
 version := "1.0"
 

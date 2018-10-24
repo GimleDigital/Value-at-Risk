@@ -1,4 +1,4 @@
-package valueatrisk
+package valueatrisk.chapter01
 
 import scala.math.{round, sqrt}
 import java.io.File
