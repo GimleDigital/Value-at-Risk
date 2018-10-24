@@ -44,3 +44,5 @@ Each proposed exercise solution is a separate Scala application. Navegate to its
 directory (for example "chapter01"), start sbt and run the app. If the chapter
 contains more than one exercise, sbt will show a list of exercises to choose
 from. 
+
+Follow our Economics & Finance Open Source iniciative at https://gimledigital.com/
