@@ -1,9 +1,20 @@
 package valueatrisk
 
 import scala.collection.mutable.ListBuffer
+import scala.math.{abs, pow, round, signum}
 
 /** Utilities and help functions */
 package object utils {
+  /** Returns a rounded value.
+   *
+   *  @param number the number to be rounded
+   *  @param precision the number of decimals
+   */
+  def getRounded(number: Double, precision: Int): Double = {
+    (round(number * pow(10, precision.toFloat)) /
+    pow(10, precision.toFloat)).toDouble
+  }
+
   /** Provides functions to accumulate results in a buffer and write them all
    *  together in the console. Ensures a clean output, separated from Breeze and
    *  Spark error messages,
@@ -22,19 +33,21 @@ package object utils {
        listBuffer += str
     }
 
-    /** Prints the results to console.
+    /** Prints the results to console, with lines of characters equal to console
+     *  width before and after the block of results.
      *
-     *  @param separator the character to be used as separator
+     *  @param separator the character to be used as separator in the lines
      */
-    def printResults(separator: Char) {
+    def printResults(separator: Char, width: Int) = {
       val sep = separator.toString
-      println(s"\n${sep*80}\n\nRESULTS FOR EXERCISE $exercise\n")
+
+      println(s"\n${sep*width}\n\nRESULTS FOR EXERCISE $exercise\n")
 
       for (item <- listBuffer) {
         println(s"$item")
       }
 
-      println(s"${sep*80}\n")
+      println(s"${sep*width}\n")
     }
   }
 }

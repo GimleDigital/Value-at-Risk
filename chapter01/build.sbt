@@ -10,4 +10,9 @@ resolvers ++= Seq(
   "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
 )
 
-libraryDependencies += "org.scalanlp" % "breeze_2.11" % "0.12"
+libraryDependencies ++= Seq(
+  "org.scalanlp" % "breeze_2.11" % "0.12",
+  "org.scalafx" %% "scalafx" % "8.0.144-R12"
+)
+
+fork in run := true
