@@ -1,4 +1,4 @@
-package valueatrisk
+package valueatrisk.chapter01
 
 import scala.collection.mutable.ArrayBuffer
 import scala.math.sqrt

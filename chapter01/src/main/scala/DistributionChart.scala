@@ -1,4 +1,4 @@
-package valueatrisk
+package valueatrisk.chapter01
 
 import scalafx.collections.ObservableBuffer
 import scalafx.scene.chart.BarChart

@@ -1,4 +1,4 @@
-package valueatrisk
+package valueatrisk.chapter01
 
 import scala.collection.mutable.ListBuffer
 import scala.math.{abs, pow, round, signum}
