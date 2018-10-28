@@ -14,7 +14,7 @@ online at https://www.value-at-risk.net/
 
   Chapter 01: Value-at-Risk
   
-  Chapter 02: Mathematical Preliminaries <<< TBA >>>
+  Chapter 02: Mathematical Preliminaries
   
   Chapter 03: Probabilities <<< TBA >>>
 
