@@ -47,11 +47,11 @@ package object utils {
       params.length match {
         case 1 => if (absValue == 0) "" else s"$polynomial$sign $absValue"
         case 2 => {
-		  if (absValue == 0) getItem(params.tail, s"$polynomial")
+          if (absValue == 0) getItem(params.tail, s"$polynomial")
           else getItem(params.tail, s"$polynomial$sign $absValue$variableName")
         }
         case _ => {
-		  if (absValue == 0) getItem(params.tail, s"$polynomial")
+          if (absValue == 0) getItem(params.tail, s"$polynomial")
           else getItem(params.tail,
             s"$polynomial$sign $absValue$variableName${params.length-1}")
         }
@@ -60,7 +60,7 @@ package object utils {
 
     getItem(parameterValues, s"$functionName =")
   }
-  
+
   /** Returns the Cholesky factorization of a matrix, or an error message.
    *
    *  @param matrix the matrix to be factorized
@@ -68,15 +68,15 @@ package object utils {
    */
   def getCholesky(matrix: DenseMatrix[Double], prefix: String): String = {
     val error = s"${prefix}Exception: not converged, please resolve manually\n"
-	
-    try {  
+
+    try {
       val c = cholesky.ImplCholesky_DM(matrix)
       s"${prefix}Cholesky Factorization:\n${c.toString}\n"
     } catch {
         case e: NotConvergedException =>  error
-	}
+    }
   }
-  
+
   /** Provides functions to accumulate results in a buffer and write them all
    *  together in the console. Ensures a clean output, separated from Breeze and
    *  Spark error messages,

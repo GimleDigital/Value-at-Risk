@@ -16,14 +16,14 @@ import breeze.numerics.constants._
   val a2 = Complex(2, -1)
   val resultA = a1*a2
   results.add(s"a) $resultA\n")
-  
+
   val resultB = 5 / Complex(2, 1)
   results.add(s"b) $resultB\n")
-  
+
   // Applying Euler's formula
   val resultC = Complex(utils.rounded(cos(1),4), utils.rounded(sin(1), 4))
   results.add(s"c) $resultC\n")
-  
+
   // Writing the buffered results
   results.all('-', 80)
 }
