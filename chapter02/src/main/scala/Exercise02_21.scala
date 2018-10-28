@@ -62,11 +62,11 @@ object Excercise02_21 extends App {
   def jacobian(x1: Double, x2: Double) = 
     DenseMatrix((d11(x1, x2), d12(x1, x2)), (d21(x1, x2), d22(x1, x2)))
 
-  /** TODO: Investigate why condition norm(f) >= norm(fk) does not fail in the
+  /** TODO: Investigate why condition norm(f) < norm(fk) does not fail in the
      *  third iteration and implement line search.
 	 */
   results.add(
-	"ERROR: Condition norm(f) >= norm(fk) should fail in the third iteration."
+	"ERROR: Condition norm(f) < norm(fk) should fail in the third iteration."
   )
   results.add("Please see the source code for details.\n")
   
@@ -103,7 +103,7 @@ object Excercise02_21 extends App {
   val approximation = newton(seedValue._1, seedValue._2)
 
   results.add(
-    "ERROR: Condition norm(f) >= norm(fk) should fail in the third iteration."
+    "ERROR: Condition norm(f) < norm(fk) should fail in the third iteration."
   )
   results.add(
     "Please see source code for details. The final results are not correct:\n"
