@@ -14,7 +14,7 @@ object Excercise02_20 extends App {
    *  @param xk the value of x
    */
   def function = (xk: Double) => { exp(xk) - 3 * pow(xk, 2) }
-  
+
   /** Returns the value of x for which the function value is zero, by using
    *  the secant method of approximation.
    *
@@ -25,17 +25,17 @@ object Excercise02_20 extends App {
   def secant(f: Double => Double, x0: Double, xk: Double): Double = {
     val x = xk - (f(xk) * (xk - x0)) / (f(xk) - f(x0))
     val y = (f(xk) - f(x0)) / (xk - x0)
-	
-	if (utils.rounded(y, 5) == 0) xk // Resolved
-	else secant(f, xk, x) // Not resolved, run next iteration
+
+    if (utils.rounded(y, 5) == 0) xk // Resolved
+    else secant(f, xk, x) // Not resolved, run next iteration
   }
-  
+
   // Running the algorithm
   val seedValues = (0.0, 1.0)
   val approximation = secant(function, seedValues._1, seedValues._2)
-  
+
   results.add(s"Approximation: x = ${utils.rounded(approximation, 5)}\n")
-  
+
   // Writing the buffered results
-  results.all('-', 80) 
+  results.all('-', 80)
 }

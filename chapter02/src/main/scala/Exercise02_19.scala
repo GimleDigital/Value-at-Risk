@@ -14,7 +14,7 @@ object Excercise02_19 extends App {
    *  @param xk the value of x
    */
   def function = (xk: Double) => { exp(xk) - 3 * pow(xk, 2) }
-  
+
   /** Returns the function's first order differential  for a given value of x.
    *
    *  @param xk the value of x
@@ -31,17 +31,17 @@ object Excercise02_19 extends App {
   def newton(f: Double => Double, d: Double => Double, xk: Double): Double = {
     val x = xk - f(xk)/d(xk)
     val y = f(x) + d(x) * (x - xk)
-	
-	if (utils.rounded(y, 5) == 0) xk // Resolved
-	else newton(f, d, x) // Not resolved, run next iteration	
+
+    if (utils.rounded(y, 5) == 0) xk // Resolved
+    else newton(f, d, x) // Not resolved, run next iteration
   }
-  
+
   // Running the algorithm
   val seedValue = 0
   val approximation = newton(function, differential, 0)
-  
+
   results.add(s"Approximation: x = ${utils.rounded(approximation, 5)}\n")
-  
+
   // Writing the buffered results
-  results.all('-', 80) 
+  results.all('-', 80)
 }
