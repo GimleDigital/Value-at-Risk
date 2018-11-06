@@ -16,7 +16,7 @@ online at https://www.value-at-risk.net/
   
   Chapter 02: Mathematical Preliminaries
   
-  Chapter 03: Probabilities <<< TBA >>>
+  Chapter 03: Probabilities
 
   Chapter 04: Statistics and Time Series <<< TBA >>>
 
