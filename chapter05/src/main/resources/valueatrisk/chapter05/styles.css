@@ -1,0 +1,15 @@
+/* Common values for all exercises */
+.root {
+  -fx-background-color: #cce6ef;
+}
+
+/* Specific values for excercise 5.8  */
+.exercise-5-8 .label {
+  -fx-font-size: 14px;
+  -fx-wrap-text: true;
+}
+
+.exercise-5-8 .vbox {
+  -fx-padding: 30;
+  -fx-spacing: 30;
+}
