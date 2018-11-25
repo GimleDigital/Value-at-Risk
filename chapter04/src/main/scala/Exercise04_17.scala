@@ -8,7 +8,7 @@ import breeze.stats.distributions.ChiSquared
 /** Proposed solution for exercise 4.17 in the book "Value-at-Risk:
  *  Theory and Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise04_17 extends App {
+object Exercise04_17 extends App {
   // Results will be stored in a buffer, to be written later
   val results = new utils.Results("4.17")
 

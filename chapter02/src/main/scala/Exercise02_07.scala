@@ -6,7 +6,7 @@ import breeze.linalg.functions._
 /** Proposed solution for exercise 2.7 in the book "Value-at-Risk: Theory and
  *  Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise02_07 extends App {
+object Exercise02_07 extends App {
   // Results will be stored in a buffer, to be written later
   val results = new utils.Results("2.7")
 

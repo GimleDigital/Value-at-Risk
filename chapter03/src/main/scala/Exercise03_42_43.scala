@@ -8,7 +8,7 @@ import breeze.numerics._
 /** Proposed solution for exercise 3.42 and 3.43 in the book "Value-at-Risk:
  *  Theory and Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise03_42_43 extends App {
+object Exercise03_42_43 extends App {
   // Results will be stored in a buffer, to be written later
   val results = new utils.Results("3.42 and 3.43")
 

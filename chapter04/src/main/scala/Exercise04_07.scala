@@ -23,7 +23,7 @@ import breeze.numerics.constants._
 /** Proposed solution for exercise 4.7 in the book "Value-at-Risk:
  *  Theory and Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise04_07 extends JFXApp {
+object Exercise04_07 extends JFXApp {
   // Exercise definitions
   val trials = 100
   val probability = 0.50

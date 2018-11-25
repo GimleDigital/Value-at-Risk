@@ -19,7 +19,7 @@ import breeze.linalg._
 /** Proposed solution for exercise 4.19 in the book "Value-at-Risk:
  *  Theory and Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise04_19 extends JFXApp {
+object Exercise04_19 extends JFXApp {
   // Exercise definitions
   val whiteNoise = csvread(new File("data/exercise-04-18-19-20-wn.dat"), '	')
 

@@ -5,7 +5,7 @@ import scala.math.{exp, pow}
 /** Proposed solution for exercise 2.19 in the book "Value-at-Risk: Theory and
  *  Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise02_19 extends App {
+object Exercise02_19 extends App {
   // Results will be stored in a buffer, to be written later
   val results = new utils.Results("2.19")
 

@@ -7,7 +7,7 @@ import breeze.linalg.DenseVector
 /** Proposed solution for exercise 3.2 in the book "Value-at-Risk: Theory and
  *  Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise03_02 extends App {
+object Exercise03_02 extends App {
   // Results will be stored in a buffer, to be written later
   val results = new utils.Results("3.2")
 
