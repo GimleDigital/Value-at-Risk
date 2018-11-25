@@ -24,7 +24,7 @@ import breeze.stats.distributions.Binomial
 /** Proposed solution for exercise 4.8 in the book "Value-at-Risk:
  *  Theory and Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise04_08 extends JFXApp {
+object Exercise04_08 extends JFXApp {
   // Exercise definitions
   val trials = 100
   val probabilities = Array(0.50, 0.48, 0.40)

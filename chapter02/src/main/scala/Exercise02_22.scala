@@ -7,7 +7,7 @@ import breeze.integrate._
 /** Proposed solution for exercise 2.22 in the book "Value-at-Risk: Theory and
  *  Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise02_22 extends App {
+object Exercise02_22 extends App {
   // Results will be stored in a buffer, to be written later
   val results = new utils.Results("2.22")
 

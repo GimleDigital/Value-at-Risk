@@ -9,7 +9,7 @@ import breeze.linalg._
 /** Proposed solutions for exercise 2.4 in the book "Value-at-Risk: Theory and
  *  Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise02_04 extends App {
+object Exercise02_04 extends App {
   // Uploading tab separated data from files.
   val y = csvread(new File("data/exercise-02-04-y.dat"),'	')
   val x = csvread(new File("data/exercise-02-04-x.dat"),'	')

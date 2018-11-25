@@ -18,7 +18,7 @@ import breeze.stats.distributions.Binomial
 /** Proposed solution for exercise 1.12 in the book "Value-at-Risk: Theory and
  *  Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise01_10 extends JFXApp {
+object Exercise01_10 extends JFXApp {
   val n = 20
   val p = 0.9
 

@@ -8,7 +8,7 @@ import breeze.linalg.{det, DenseMatrix}
 /** Proposed solution for exercise 2.24 in the book "Value-at-Risk: Theory and
  *  Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise02_24 extends App {
+object Exercise02_24 extends App {
   // Results will be stored in a buffer, to be written later
   val results = new utils.Results("2.24")
 

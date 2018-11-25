@@ -8,7 +8,7 @@ import breeze.linalg.{csvread, DenseVector, sum}
 /** Proposed solution for exercise 1.12 in the book "Value-at-Risk: Theory and
  *  Practice" (2nd edition) by Glyn A. Holton.
  */
-object Excercise01_12 extends App {
+object Exercise01_12 extends App {
   // Uploading tab separated data from files.
   val weights = csvread(new File("data/exercise-01-12-weights.dat"),'	')
   val covariances =
