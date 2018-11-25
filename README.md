@@ -20,7 +20,7 @@ online at https://www.value-at-risk.net/
 
   Chapter 04: Statistics and Time Series
 
-  Chapter 05: Monte Carlo Method <<< TBA >>>
+  Chapter 05: Monte Carlo Method
 
   Chapter 06: Historical Market Data <<< TBA >>>
 
