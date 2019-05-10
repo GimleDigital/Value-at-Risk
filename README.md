@@ -22,7 +22,7 @@ online at https://www.value-at-risk.net/
 
   Chapter 05: Monte Carlo Method
 
-  Chapter 06: Historical Market Data <<< TBA >>>
+  Chapter 06: Historical Market Data
 
   Chapter 07: Inference <<< TBA >>>
 
