@@ -21,7 +21,7 @@ package object utils {
     val roundedValue = rounded(value, decimals)
     s"%.${decimals}f".formatLocal(java.util.Locale.US, roundedValue)
   }
-  
+
   /** Provides functions to accumulate results in a buffer and write them all
    *  together in the console. Ensures a clean output, separated from Breeze and
    *  Spark error messages,
@@ -57,17 +57,17 @@ package object utils {
       println(s"${sep*width}\n")
     }
   }
-  
+
   /** Returns the month and year label in format MMMYY.
    *
    *  @param date the number (yyyymm) to be converted
    */
   def numberToLabel(date: String): String = {
-    val monthLabels = Map("01" -> "JAN", "02" -> "FEB", "03" -> "MAR", 
-	                      "04" -> "APR", "05" -> "MAY", "06" -> "JUN",
-						  "07" -> "JUL", "08" -> "AUG", "09" -> "SEP",
-						  "10" -> "OCT", "11" -> "NOV", "12" -> "DEC")
-						
+    val monthLabels = Map("01" -> "JAN", "02" -> "FEB", "03" -> "MAR",
+                          "04" -> "APR", "05" -> "MAY", "06" -> "JUN",
+                          "07" -> "JUL", "08" -> "AUG", "09" -> "SEP",
+                          "10" -> "OCT", "11" -> "NOV", "12" -> "DEC")
+
     monthLabels.getOrElse(date.slice(4, 6), "") + date.slice(2, 4)
   }
 }
