@@ -24,7 +24,7 @@ online at https://www.value-at-risk.net/
 
   Chapter 06: Historical Market Data
 
-  Chapter 07: Inference <<< TBA >>>
+  Chapter 07: Inference
 
   Chapter 08: Primary Portfolio Mappings <<< TBA >>>
 
