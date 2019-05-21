@@ -26,7 +26,7 @@ online at https://www.value-at-risk.net/
 
   Chapter 07: Inference
 
-  Chapter 08: Primary Portfolio Mappings <<< TBA >>>
+  Chapter 08: Primary Portfolio Mappings
 
   Chapter 09: Portfolio Remappings <<< TBA >>>
 
