@@ -28,7 +28,7 @@ online at https://www.value-at-risk.net/
 
   Chapter 08: Primary Portfolio Mappings
 
-  Chapter 09: Portfolio Remappings <<< TBA >>>
+  Chapter 09: Portfolio Remappings
 
   Chapter 10: Transformation Procedures <<< TBA >>>
 
