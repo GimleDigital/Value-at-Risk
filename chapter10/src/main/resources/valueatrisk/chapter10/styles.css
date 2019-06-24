@@ -1,0 +1,31 @@
+/* Common values for all exercises */
+.root {
+  -fx-background-color: #cce6ef;
+}
+
+/* Specific values for excercise 10.6  */
+.exercise-10-6-axis-label {
+  -fx-font-weight: bold;
+}
+
+.exercise-10-6-header {
+  -fx-font-weight: bold;
+}
+
+.exercise-10-6 .table-view .label {
+  -fx-background-image: url("signaturebg2.gif");
+  -fx-font-size: 12;
+  -fx-font-weight: bold;
+  -fx-background-color: #d7d7d7;
+  -fx-background-repeat: repeat-x;
+  -fx-min-height: 18px;
+}
+.exercise-10-6 .table-column {
+  -fx-alignment: CENTER;
+}
+
+.exercise-10-6-gridpane {
+  -fx-hgap: 15px;
+  -fx-vgap: 15px;
+  -fx-padding: 15px;
+}
