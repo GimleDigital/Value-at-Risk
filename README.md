@@ -30,7 +30,7 @@ online at https://www.value-at-risk.net/
 
   Chapter 09: Portfolio Remappings
 
-  Chapter 10: Transformation Procedures <<< TBA >>>
+  Chapter 10: Transformation Procedures
 
   Chapter 11: Historical Simulation <<< TBA >>>
 
