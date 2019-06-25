@@ -32,7 +32,7 @@ online at https://www.value-at-risk.net/
 
   Chapter 10: Transformation Procedures
 
-  Chapter 11: Historical Simulation <<< TBA >>>
+  Chapter 11: Historical Simulation
 
   Chapter 12: Implementing Value-at-Risk <<< TBA >>>
 
