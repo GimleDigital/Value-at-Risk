@@ -34,11 +34,11 @@ online at https://www.value-at-risk.net/
 
   Chapter 11: Historical Simulation
 
-  Chapter 12: Implementing Value-at-Risk <<< TBA >>>
+  Chapter 12: Implementing Value-at-Risk
 
-  Chapter 13: Model Risk, Testing and Valdation <<< TBA >>>
+  Chapter 13: Model Risk, Testing and Valdation
 
-  Chapter 14: Backtesting <<< TBA >>>
+  Chapter 14: Backtesting
 
 Each proposed exercise solution is a separate Scala application. Navegate to its
 directory (for example "chapter01"), start sbt and run the app. If the chapter
