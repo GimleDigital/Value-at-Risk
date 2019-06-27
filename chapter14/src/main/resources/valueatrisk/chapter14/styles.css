@@ -1,0 +1,61 @@
+/* Common values for all exercises */
+.root {
+  -fx-background-color: #cce6ef;
+}
+
+.axis-label {
+  -fx-font-weight: bold;
+}
+
+.header {
+  -fx-font-weight: bold;
+}
+
+.table-view .label {
+  -fx-background-image: url("signaturebg2.gif");
+  -fx-font-size: 12;
+  -fx-font-weight: bold;
+  -fx-background-color: #d7d7d7;
+  -fx-background-repeat: repeat-x;
+  -fx-min-height: 18px;
+}
+.table-column {
+  -fx-alignment: CENTER;
+}
+
+.gridpane {
+  -fx-hgap: 15px;
+  -fx-vgap: 15px;
+  -fx-padding: 15px;
+}
+
+/* Values for CombinedChart class */
+.combined-chart .default-color0.chart-line-symbol {
+  -fx-background-color: transparent, transparent;
+}
+.combined-chart .default-color0.chart-legend-item-symbol {
+  -fx-background-color: transparent, red;
+}
+.combined-chart .default-color0.chart-series-line {
+  -fx-stroke: red;
+}
+.combined-chart .default-color1.chart-line-symbol {
+  -fx-background-color: transparent, black;
+}
+.combined-chart .default-color1.chart-series-line {
+  -fx-stroke: transparent;
+}
+.combined-chart .default-color1.chart-legend-item-symbol{
+  -fx-background-color: transparent, black;
+}
+
+/* Values for VARScatterChart class */
+.var-scatter-chart .default-color0.chart-line-symbol {
+  -fx-background-color: transparent, black;
+}
+.var-scatter-chart .default-color0.chart-series-line {
+  -fx-stroke: transparent;
+}
+.var-scatter-chart .default-color0.chart-legend-item-symbol{
+  -fx-background-color: transparent, black;
+}
