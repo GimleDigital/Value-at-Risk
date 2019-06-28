@@ -2,8 +2,6 @@
 Proposed solutions to selected exercises in the book "Value-at-Risk: Theory and
 Practice" (2nd edition) by Glyn A. Holton.
 
-<<< WORK IN PROGRESS >>>
-
 This is a collection of examples, aimed at showing how selected exercises from
 the book "Value at Risk - Theory and Practice" (2nd edition) by Glyn A. Holton
 can be resolved by programming in the Scala language and with Apache Spark.
