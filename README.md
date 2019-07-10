@@ -4,8 +4,9 @@ Practice" (2nd edition) by Glyn A. Holton.
 
 This is a collection of examples, aimed at showing how selected exercises from
 the book "Value at Risk - Theory and Practice" (2nd edition) by Glyn A. Holton
-can be resolved by programming in the Scala language and with Apache Spark.
-Also, the Breeze library is used for algebra and basic statistics.
+can be resolved by programming in the Scala language. The ScalaNLP Breeze
+library is used for matrix algebra and basic statistics, whereas some solutions
+also involves the usage of Apache Spark.
 
 The repository is structured in the same way as the book, which is available
 online at https://www.value-at-risk.net/
