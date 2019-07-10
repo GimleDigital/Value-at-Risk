@@ -35,7 +35,7 @@ online at https://www.value-at-risk.net/
 
   Chapter 12: Implementing Value-at-Risk
 
-  Chapter 13: Model Risk, Testing and Valdation
+  Chapter 13: Model Risk, Testing and Validation
 
   Chapter 14: Backtesting
 

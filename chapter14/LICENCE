@@ -1,0 +1,21 @@
+This is a collection of examples, aimed at showing how selected exercises from
+the  book "Value at Risk - Theory and Practice" (2nd edition) by Glyn A. Holton
+can be resolved by programming in the Scala language and with Apache Spark.
+
+Copyright (C) 2018 Glyn A. Holton & Mikael Berger/Gimlé Digital
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+Contact information: The copyright holders can be reached at the websites
+https://www.glynholton.com/ and https://gimledigital.com/ , respectively.
